@@ -1,0 +1,42 @@
+.main-content {
+    padding-top: 75px;
+    height: 100%;
+}
+.main-content .main-content-left-map {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    overflow-y: auto;
+}
+.main-content .main-content-right {
+    height: calc(100vh - 90px);
+    overflow: hidden;
+    overflow-y: auto;
+}
+.home-page .navbar {
+    justify-content: left;
+}
+.home-page .navbar .form-control {
+    min-width: 300px;
+    min-height: 44px;
+    border-radius: 0;
+    border: 1px solid #425eea;
+}
+.home-page .navbar .form-control:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.home-page .navbar .form-inline button{
+    background-color: #425eea;
+    color: #fff;
+    min-height: 44px;
+    border-radius: 0;
+    margin-left: -2px;
+}
+.home-page .navbar .form-inline button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.home-page .navbar .form-inline  .btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    background-color: #425eea !important;
+    border-color: #425eea !important;
+}
