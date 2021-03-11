@@ -24,9 +24,9 @@ function HomePage(props) {
         <div className="container-fluid home-page">
             <header className="container">
                 <nav className="navbar fixed-top navbar-light bg-light">
-                    <a className="navbar-brand"><img src={Logo} width="30" height="30" alt=""/></a>
+                    <div className="navbar-brand"><img src={Logo} width="30" height="30" alt=""/></div>
                     <div>
-                        <form class="form-inline">
+                        <form className="form-inline">
                             <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
                             <button className="btn btn-outline-success my-2 my-sm-0" type="submit"><i className="fas fa-search"></i></button>
                         </form>
