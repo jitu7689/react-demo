@@ -303,12 +303,9 @@ function DashboardPage(props) {
                             <input type="file" onChange={onFileChange} />
                             <button className="btn btn-primary" onClick={onFileUpload}>Submit</button>
                         </div>
-                        {
-                            showTable &&
-                            <div className="mt-5">
-                                <GridTable columns={columns} rows={rows} />
-                            </div>
-                        }
+                        <div className="mt-5">
+                            <GridTable columns={columns} rows={rows} />
+                        </div>
 						<Dialog
 							onClose={closeDeleteModal}
 							aria-labelledby="customized-dialog-title"
