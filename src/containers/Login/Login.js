@@ -2,7 +2,7 @@ import React from 'react';
 // import React, {useState, useEffect} from 'react';
 import "./Login.css";
 function LoginPage(props) {
-    const goToHome = () => props.history.push('/home');
+    const goToHome = () => props.history.push('/dashboard');
     return (
         <div id="login">
             <div className="container">
